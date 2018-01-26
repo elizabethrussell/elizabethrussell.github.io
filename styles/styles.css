@@ -41,7 +41,7 @@ a {
 }
 
 .basicBox {
-    width: 130px;
+    width: 260px;
     height: 65px;
     margin: 15px auto;
     color: #86A397;
@@ -80,30 +80,10 @@ svg rect {
 
 .basicBox:hover svg rect {
     stroke-width: 3;
-    stroke-dasharray: 35, 245;
-    stroke-dashoffset: 38;
+    stroke-dasharray: 100, 600;
+    stroke-dashoffset: 298;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
-}
-
-/* Swiggle Box */
-
-svg path {
-    stroke-dasharray: 265, 0;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-}
-
-.swiggleBox:hover svg path {
-    stroke-width: 3;
-    stroke-dasharray: 0, 350;
-    stroke-dashoffset: 20;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
 }
