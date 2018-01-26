@@ -1,27 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Supermercado+One|Roboto);
 
 .titular {
-  font-family: 'Supermercado One', cursive;
+    font-family: 'Supermercado One', cursive;
 }
+
 .texty {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 .c {
-  text-align: center;
+    text-align: center;
 }
+
 h1 {
-  font-size: 6rem;
-  color: #413C58;
+    font-size: 6rem;
+    color: #413C58;
 }
+
 h2 {
-	font-size: 1.6rem;
-	color:#413C58;
+    font-size: 1.4rem;
+    color: #413C58;
 }
+
 a {
-	color:#2300BF;
-	text-decoration:none;
+    color: #86A397;
+    text-decoration: none;
 }
-body {
-	background-image:url("motorcycles.png");
-	background-size: 120px 120px;
-}
+
+body {}
