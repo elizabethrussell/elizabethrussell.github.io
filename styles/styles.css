@@ -13,12 +13,12 @@
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     color: #413C58;
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.15rem;
     color: #413C58;
 }
 
@@ -27,4 +27,83 @@ a {
     text-decoration: none;
 }
 
-body {}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+/*  Gratuitous css button animation */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.basicBox {
+    width: 130px;
+    height: 65px;
+    margin: 15px auto;
+    color: #86A397;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15rem;
+    line-height: 65px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+svg rect {
+    fill: none;
+    stroke: #86A397;
+    stroke-width: 1;
+}
+
+.basicBox:hover svg rect {
+    stroke: #86A397;
+}
+
+svg rect {
+    stroke-dasharray: 400, 0;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+}
+
+.basicBox:hover svg rect {
+    stroke-width: 3;
+    stroke-dasharray: 35, 245;
+    stroke-dashoffset: 38;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+}
+
+/* Swiggle Box */
+
+svg path {
+    stroke-dasharray: 265, 0;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+.swiggleBox:hover svg path {
+    stroke-width: 3;
+    stroke-dasharray: 0, 350;
+    stroke-dashoffset: 20;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
