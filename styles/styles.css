@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Supermercado+One|Roboto);
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 .titular {
     font-family: 'Supermercado One', cursive;
 }
@@ -26,10 +26,6 @@ a {
     color: #86A397;
     text-decoration: none;
 }
-
-
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
 /*  Gratuitous css button animation */
