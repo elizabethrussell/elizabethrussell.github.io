@@ -28,6 +28,18 @@ a {
     text-decoration: none;
 }
 
+.me{
+    height: 100vh;
+}
+.center-in-page{
+
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: auto;
+  align-items: center;
+}
+
 
 /*  Gratuitous css button animation */
 
