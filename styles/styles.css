@@ -20,6 +20,7 @@ h1 {
 
 h2 {
     font-size: 1.15rem;
+    line-height: 1.6rem;
     color: #413C58;
 }
 
@@ -27,7 +28,9 @@ a {
     color: #86A397;
     text-decoration: none;
 }
-
+.not-lightbox{
+    background-color:#ffffff;
+}
 .me{
     height: 100vh;
 }
