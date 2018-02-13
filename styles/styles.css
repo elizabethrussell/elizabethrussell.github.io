@@ -28,6 +28,10 @@ a {
     color: #86A397;
     text-decoration: none;
 }
+a:hover {
+    color: #86A397;
+    text-decoration:none;
+}
 .not-lightbox{
     background-color:#ffffff;
 }
