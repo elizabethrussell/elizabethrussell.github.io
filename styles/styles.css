@@ -1,12 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Supermercado+One|Roboto);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Kalam);
+
 .titular {
-    font-family: 'Supermercado One', cursive;
+    font-family: 'Kalam', cursive;
 }
 
 .texty {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Kalam', sans-serif;
 }
 
 .c {
@@ -15,13 +17,13 @@
 
 h1 {
     font-size: 5rem;
-    color: #413C58;
+    color: #3c3c22;
 }
 
 h2 {
     font-size: 1.15rem;
     line-height: 1.6rem;
-    color: #413C58;
+    color: #3c3c22;
 }
 
 a {
@@ -47,6 +49,22 @@ a:hover {
   align-items: center;
 }
 
+.lemon {
+    background-image: url("./lemonpattern.jpg");
+    background-size: 500px;
+}
+
+.semiopaque {
+    background-color: rgba(255,255,255,0.7);
+    padding-top: 30px;
+    width: fit-content;
+    padding-right: 40px;
+    padding-left: 40px;
+    outline-color: #86A397;
+    outline-width:1px;
+    outline-style:solid;
+}
+
 
 /*  Gratuitous css button animation */
 
@@ -61,7 +79,7 @@ a:hover {
     height: 65px;
     margin: 15px auto;
     color: #86A397;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kalam', sans-serif;
     font-size: 1.15rem;
     line-height: 65px;
     text-transform: uppercase;
@@ -103,3 +121,4 @@ svg rect {
     -ms-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
 }
+
