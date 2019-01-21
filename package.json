@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Personal website, which should be AMP compliant for some reason",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-pug": "^3.3.0",
+    "natives": "^1.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elizabethrussell/elizabethrussell.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elizabethrussell/elizabethrussell.github.io/issues"
+  },
+  "homepage": "https://github.com/elizabethrussell/elizabethrussell.github.io#readme"
+}
