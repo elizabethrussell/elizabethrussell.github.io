@@ -11,7 +11,7 @@ gulp.task('styles', () => {
 		.pipe(gulp.dest('.'));
 });
 
-gulp.task('default', ['styles'], () => {
+gulp.task('default', gulp.series('styles', () => {
 	const styles = fs.readFileSync('./bundle.css').toString();
 	return gulp.src('./pugs/index.pug')
 		.pipe(pug({
@@ -20,4 +20,4 @@ gulp.task('default', ['styles'], () => {
 			},
 		}))
 		.pipe(gulp.dest(__dirname));
-});
+}));
