@@ -4,8 +4,8 @@
   "description": "Personal website, which should be AMP compliant for some reason",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^4.0.0",
-    "gulp-clean-css": "^2.3.2",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
     "gulp-concat-css": "^3.1.0",
     "gulp-pug": "^3.3.0",
     "natives": "^1.1.6"
