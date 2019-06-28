@@ -21,3 +21,16 @@ gulp.task('default', gulp.series('styles', () => {
 		}))
 		.pipe(gulp.dest(__dirname));
 }));
+
+
+
+gulp.task('soundcluud', gulp.series('styles', () => {
+	const styles = fs.readFileSync('./bundle.css').toString();
+	return gulp.src('./pugs/soundcluud.pug')
+		.pipe(pug({
+			locals: {
+				styles,
+			},
+		}))
+		.pipe(gulp.dest(__dirname));
+}));
